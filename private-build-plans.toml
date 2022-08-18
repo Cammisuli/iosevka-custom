@@ -29,7 +29,7 @@ k = "cursive-serifless"
 a = "double-storey-toothless-rounded"
 
 [buildPlans.iosevka-custom.ligations]
-inherits = "dlig"
+inherits = "javascript"
 
 [buildPlans.iosevka-custom.widths.normal]
 shape = 600
