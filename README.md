@@ -9,5 +9,11 @@ A Docker container handling the build environment for you can be found [here](ht
 Then run this command:
 
 ```
-docker run -e FONT_VERSION=15.3.1 -it -v (pwd):/build avivace/iosevka-build ttf::iosevka-custom
+docker run -e FONT_VERSION=16.4.0 -it -v (pwd):/build avivace/iosevka-build ttf::iosevka-custom
+```
+
+## Nerd Fonts
+
+```
+fontforge -script ./FontPatcher/font-patcher dist/iosevka-custom/ttf/iosevka-custom-regular.ttf -s -l -c
 ```
