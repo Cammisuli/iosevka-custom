@@ -29,17 +29,41 @@ k = "cursive-serifless"
 a = "double-storey-toothless-rounded"
 
 [buildPlans.iosevka-custom.ligations]
-inherits = "dlig"
-disables = [
-    "ineq",
-    "eqeq",
-    "eqeqeq",
-    "exeq",
-    "tildeeq",
-    "brace-bar",
-    "brack-bar"
+# inherits = "javascript"
+# disables = [
+#     "ineq",
+#     "eqeq",
+#     "eqeqeq",
+#     "exeqeq",
+#     "exeqeqeq",
+#     "exeq",
+#     "tildeeq"
+# ]
+enables = [
+    "ltgt-diamond-tag",
+    "ltgt-slash-tag",
+    "html-comment",
+    "colon-greater-as-colon-arrow",
+    "connected-hyphen-as-semi-dashed-line",
+    "connected-tilde-as-wave",
+    "trig",
+    "logic",
+    "brst",
+    "center-ops",
+    "kern-bars",
+    "kern-dotty",
+    "arrow",
+    "arrow2",
+    "dot-as-operator",
+    "slash-asterisk"
 ]
 
+# -<< -< -<- <-- <--- <<- <- -> ->> --> ---> ->- >- >>-
+# =<< =< =<= <== <=== <<= <= => =>> ==> ===> =>= >= >>=
+# <-> <--> <---> <----> <=> <==> <===> <====> :: ::: __
+# <~~ </ </> /> ~~> == != /= ~= <> === !== !=== =/= =!=
+# <: := :- :+ <* <*> *> <| <|> |> <. <.> .> +: -: =: :>
+# (* *) /* */ [| |] {| |} ++ +++ \/ /\ |- -| <!-- <!---
 
 [buildPlans.iosevka-custom.widths.normal]
 shape = 600
