@@ -55,7 +55,7 @@ enables = [
     "arrow",
     "arrow2",
     "dot-as-operator",
-    "slash-asterisk"
+    "slash-asterisk",
 ]
 
 # -<< -< -<- <-- <--- <<- <- -> ->> --> ---> ->- >- >>-
@@ -66,7 +66,7 @@ enables = [
 # (* *) /* */ [| |] {| |} ++ +++ \/ /\ |- -| <!-- <!---
 
 [buildPlans.iosevka-custom.widths.normal]
-shape = 600
+shape = 630
 menu = 5
 css = "normal"
 
